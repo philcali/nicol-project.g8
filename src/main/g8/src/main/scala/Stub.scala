@@ -1,4 +1,4 @@
-$package$
+package $package$
 
 import nicol._
 import input.Key._
