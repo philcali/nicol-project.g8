@@ -1,5 +1,5 @@
 import sbt._
 
-class MyProject(info: ProjectInfo) extends DefaultProject(info) {
-  // give the user a nice default project!
+class Project(info: ProjectInfo) extends LWJGLProject(info) with Nicol {
+  override def mainClass = Some("$package$.$game_class$")
 }
