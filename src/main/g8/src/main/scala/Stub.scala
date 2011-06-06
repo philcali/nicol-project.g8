@@ -9,6 +9,7 @@ object Main extends GameScene with SyncableScene with StandardRenderer {
   def update = {
     draw("Hello $name$! Thank you for using Nicol", position = (300, 300))
 
+    sync
     if (escape) End else None
   }
 }
