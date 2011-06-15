@@ -1,6 +1,6 @@
 seq(Nicol.engineSettings: _*)
 
-mainClass := Some("$package$.$game_class$")
+mainClass in (Compile, run) := Some("$package$.$game_class$")
 
 name := "$name$"
 
