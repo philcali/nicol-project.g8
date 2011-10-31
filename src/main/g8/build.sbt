@@ -7,3 +7,5 @@ name := "$name$"
 version := "$version$"  
 
 scalaVersion := "$scala_version$"
+
+resolvers += "Diablo3D" at "http://adterrasperaspera.com/lwjgl"
